@@ -50,11 +50,11 @@ public class MainActivity extends AppCompatActivity {
     class BtnOnClickListener implements Button.OnClickListener {
         @Override
         public void onClick(View view) {
-            TextView textView1 = (TextView) findViewById(R.id.footer);
+            TextView textView1 = (TextView) findViewById(R.id.serverMessage);
             switch (view.getId()) {
                 case R.id.pushbutton:
-                    textView1.setText("Upload completed");
-                    textView1.setBackgroundColor(Color.rgb(255, 144, 0));
+                    textView1.setText("파일 변환이 완료되었습니다.");
+                    //textView1.setBackgroundColor(Color.rgb(255, 144, 0));
                     break;
                 /*
                 case R.id.buttonGreen :
